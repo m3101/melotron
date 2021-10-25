@@ -208,7 +208,7 @@ static void _generate_stream(struct SoundIoOutStream *outstream,
 Player::Player()
 {
     int err;
-    this->player_parameters.motor_factor=80;
+    this->player_parameters.motor_factor=120;
     this->player_parameters.dirtnoise=0.0000005;
     this->player_parameters.flutter=2;
     this->player_parameters.wow=.7;
